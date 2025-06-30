@@ -1,0 +1,85 @@
+/* ---------------------------------- header ---------------------------------- */
+header {
+  background-color: #154746;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  flex-direction: row-reverse; /* لو تبي اتجاه RTL للهيدر */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 60px;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #ae863c;
+}
+
+/* --------------------------------- loginPage -------------------------------- */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  height: 100vh;
+  direction: rtl; /* مهم للعربية */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.logtitle {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.logform {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 300px;
+  margin-top: -350px;
+}
+
+.loglabels {
+  display: block;
+  margin-top: 10px;
+}
+
+.loginputs {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+.buttons {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.buttons:hover {
+  background-color: #0056b3;
+}
