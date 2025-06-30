@@ -17,22 +17,6 @@
         </div>
     </header>
 
-    <main>
-        <section class="login-box">
-            <h2>تسجيل الدخول</h2>
-            <form action="login_process.php" method="post">
-                <label for="username">اسم المستخدم</label>
-                <input type="text" id="username" name="username" required>
-                
-                <label for="password">الرقم السري</label>
-                <input type="password" id="password" name="password" required>
-                
-                <button type="submit">تسجيل الدخول</button>
-            </form>
-            <a href="#" class="forgot-password">نسيت الرقم السري؟</a>
-        </section>
-    </main>
-
     <footer>
         جميع الحقوق محفوظة © مركز التعليم المستمر - جامعة الإمام عبدالرحمن بن فيصل
     </footer>
